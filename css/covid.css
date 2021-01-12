@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    text-align: center;
+    background:seashell;
+}
+.covid-tracker{
+    background-color: blue;
+}
+.case-container{
+    background:teal;
+    margin: 2em;
+}
+.cases{
+    text-align: center;
+    background:lightskyblue;
+    width:15%;
+    margin-left:42%;
+    padding-bottom: 2em;
+}
+.total-case,
+.cases-per-million,
+.cases-reported-today,
+.total-recovered,
+.recovered-per-million,
+.today-recovered,
+.death-per-million{
+    background:darkgrey;
+    text-align:center;
+    margin-left:25em;
+    margin-right:25em;
+}
+.total-case1,
+.cases-per-million1,
+.cases-reported-today1,
+.total-recovered1,
+.recovered-per-million1,
+.today-recovered1,
+.death-per-million1{
+    margin-top:5em;
+}
+.record-cases,
+.record-per-million,
+.record-today-cases,
+.recovered,
+.recovered-per-one-million,
+.today-recovered2,
+.death-per-one-million{
+    background:yellow;
+    margin-left:13em;
+    align-items:center;
+    width:35%;
+}
