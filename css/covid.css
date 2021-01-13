@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: center;
-    background:seashell;
+    background:rgb(185, 125, 81);
 }
 .covid-tracker{
     background-color: blue;
@@ -13,8 +13,6 @@ body{
 .cases{
     text-align: center;
     background:lightskyblue;
-    width:15%;
-    margin-left:42%;
     padding-bottom: 2em;
 }
 .total-case,
@@ -25,9 +23,8 @@ body{
 .today-recovered,
 .death-per-million{
     background:darkgrey;
-    text-align:center;
-    margin-left:25em;
-    margin-right:25em;
+    margin-left:23em;
+    margin-right:23em;
 }
 .total-case1,
 .cases-per-million1,
@@ -36,7 +33,11 @@ body{
 .recovered-per-million1,
 .today-recovered1,
 .death-per-million1{
-    margin-top:5em;
+    display: flex;
+    background-color: blueviolet;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .record-cases,
 .record-per-million,
@@ -45,8 +46,10 @@ body{
 .recovered-per-one-million,
 .today-recovered2,
 .death-per-one-million{
-    background:yellow;
-    margin-left:13em;
-    align-items:center;
-    width:35%;
+    display: flex;
+    background-color: blueviolet;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em;
 }
