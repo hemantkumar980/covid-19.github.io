@@ -12,7 +12,7 @@ getRecords(APIURL);
 function showRecords(record){
 console.log(record);
 document.getElementById("main").innerHTML =
-`
+
 <div class="case-container">
 <h2 class="cases">CASES</h2>
 <div class="total-case">
@@ -43,6 +43,5 @@ document.getElementById("main").innerHTML =
     <h3 class="death-per-million1">DeathPerMillion</h3>
     <div class="death-per-one-million">${record.deathsPerOneMillion}</div>
 </div>
-</div>
-`    
+</div>   
 }
